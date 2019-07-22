@@ -1,0 +1,72 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    color: aqua;
+}
+
+.separador
+{
+    width: 100%;
+    height: 5em;
+    background: red;
+}
+.mini
+{
+    width: 100%;
+    height: 2em;
+    background: blue;
+}
+.caja
+{
+    /* align-items: center; */
+    width: 80%;
+    background: rgb(43, 37, 37);
+    color: aqua;
+    /* float: initial; */
+    /* position: relative; */
+    margin: auto;
+    text-align: center;
+    height: 50em;
+}
+.caja .opciones
+{
+    width: 100%;
+    padding: 5em;
+    color: aqua;
+    height: 50em;
+    background: purple;
+}
+
+.option
+{
+    width: 90%;
+    color: aqua;
+    background: green;
+    /* text-align: left; */
+}
+.especialidades
+{
+    width: 80%;
+    margin: auto;
+    background: #342532;
+    padding: 4em;
+    height: 40em;
+}
+.especialidad
+{
+    width: 70%;
+    float: left;
+    background: yellow;
+    font-size: 1,5em;
+}
+.elegir
+{
+    width: 30%;
+    float: left;
+    background: orangered;
+    font-size: 1,5em;
+}
