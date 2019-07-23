@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CipagoComponent implements OnInit {
 
+  //js para la tarjeta
+  
+
+  //fin de la tarjeta
+
+
+
+
+
   constructor() { }
 
   ngOnInit() {
