@@ -43,6 +43,7 @@ import { CiiniciadoComponent } from './cambiable/cita/ciheader/ciiniciado/ciinic
 import { CiniiniciadoComponent } from './cambiable/cita/ciheader/ciniiniciado/ciniiniciado.component';
 import { CilogueoComponent } from './cambiable/cita/cilogueo/cilogueo.component';
 import { CiregistroComponent } from './cambiable/cita/ciregistro/ciregistro.component';
+import { LoguinComponent } from './cambiable/cita/loguin/loguin.component';
 
 @NgModule({
   declarations: [
@@ -86,7 +87,8 @@ import { CiregistroComponent } from './cambiable/cita/ciregistro/ciregistro.comp
     CiiniciadoComponent,
     CiniiniciadoComponent,
     CilogueoComponent,
-    CiregistroComponent
+    CiregistroComponent,
+    LoguinComponent
   ],
   imports: [
     BrowserModule,

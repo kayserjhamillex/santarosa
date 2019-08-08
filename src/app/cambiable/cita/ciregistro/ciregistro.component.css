@@ -1,140 +1,32 @@
-.separador
-{
-    width: 100%;
-    height: 2em;
-    background: black;
-    color: aqua;
-    text-align: center;
-}
-.caja
+.frace
 {
     width: 80%;
-    background: black;
-    margin: auto;
-
-}
-.formulario
-{
-    width: 80%;
-    background: black;
-    margin: auto;
-    padding: 4em;
-}
-.ContentForm
-{
-    width: 70%;
-    background: black;
-    margin: auto;
-    padding: 7em;
-}
-input
-{
-    width: 100%;
-    height: 50px;
-}
-button
-{
-    background: white;
-    color: black;
-    font-size: 2em;
-}
-a
-{
-    color: aqua;
-}
-
-@media screen and (max-width:400px)
-{
-    .separador
-{
-    width: 100%;
-    height: 1em;
-    background: black;
-    color: aqua;
     text-align: center;
+    color: aliceblue;
 }
 .caja
 {
-    width: 100%;
-    background: black;
+    width: 95%;
     margin: auto;
-
 }
-.formulario
+.registro
 {
-    width: 100%;
-    background: black;
+    width: 95%;
     margin: auto;
-    padding: 0;
 }
-.ContentForm
+.datos
 {
-    width: 90%;
-    background: black;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    align-items: center;
     margin: auto;
-    padding: 0;
 }
 input
 {
-    width: 100%;
-    height: 50px;
-}
-button
-{
-    background: white;
-    color: black;
-    font-size: 2em;
-}
-a
-{
-    color: aqua;
-}
+    margin: auto;
+    border-radius: 15px;
 }
 
-@media screen and (min-width:400px) and (max-width:800px)
-{
-    .separador
-{
-    width: 100%;
-    height: 1em;
-    background: black;
-    color: aqua;
-    text-align: center;
-}
-.caja
-{
-    width: 100%;
-    background: black;
-    margin: auto;
 
-}
-.formulario
-{
-    width: 100%;
-    background: black;
-    margin: auto;
-    padding: 0;
-}
-.ContentForm
-{
-    width: 90%;
-    background: black;
-    margin: auto;
-    padding: 0;
-}
-input
-{
-    width: 100%;
-    height: 50px;
-}
-button
-{
-    background: white;
-    color: black;
-    font-size: 2em;
-}
-a
-{
-    color: aqua;
-}
-}
+

@@ -1,0 +1,125 @@
+.caja
+{
+    padding: 1em;
+    background:white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.logueo
+{
+    background: white;
+    width: 70%;
+    margin: auto;
+}
+.bienvenido
+{
+    text-align: left;
+}
+input
+{
+    background: lightblue;
+    font-size: 52px;
+    color: black;
+    border-radius: 40px;
+    width: 90%;
+}
+button
+{
+    border-radius: 40px;
+    width: 90%;
+    font-size: 40px;
+    padding: 1em;
+}
+.registro
+{
+    background: skyblue;
+    padding: 1em;
+    font-size: 20px;
+}
+
+@media screen and (max-width:400px)
+{
+    .caja
+    {
+        padding: 0;
+        background:white;
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    .logueo
+    {
+        background: white;
+        width: 90%;
+        margin: auto;
+    }
+    .bienvenido
+    {
+        text-align: left;
+    }
+    input
+    {
+        background: lightblue;
+        font-size: 25px;
+        color: black;
+        border-radius: 40px;
+        width: 95%;
+    }
+    button
+    {
+        border-radius: 40px;
+        width: 95%;
+        font-size: 20px;
+        /* padding: 1em; */
+    }
+    .registro
+    {
+        background: skyblue;
+        /* padding: 1em; */
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:800px)
+{
+    .caja
+    {
+        padding: 0;
+        background:white;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .logueo
+    {
+        background: white;
+        width: 90%;
+        margin: auto;
+    }
+    .bienvenido
+    {
+        text-align: left;
+    }
+    input
+    {
+        background: lightblue;
+        font-size: 32px;
+        color: black;
+        border-radius: 40px;
+        width: 90%;
+        text-align: center;
+    }
+    button
+    {
+        border-radius: 40px;
+        width: 90%;
+        font-size: 25px;
+        padding: 1em;
+    }
+    .registro
+    {
+        background: skyblue;
+        padding: 1em;
+        font-size: 20px;
+    }
+}
