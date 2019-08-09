@@ -2,12 +2,15 @@
 {
     width: 80%;
     text-align: center;
-    color: aliceblue;
+    color: white;
+    margin-bottom: 50px;
+    margin: auto;
 }
 .caja
 {
     width: 95%;
     margin: auto;
+    background: white;
 }
 .registro
 {
@@ -19,12 +22,29 @@
     width: 50%;
     float: left;
     padding: 10px;
-    align-items: center;
     margin: auto;
 }
 input
 {
     margin: auto;
+    border-radius: 15px;
+    width: 90%;
+    background: black;
+    color: aliceblue;
+    font-size: 2em;
+}
+.registrar
+{
+    margin: auto;
+    width: 40%;
+
+}
+button
+{
+    font-size: 2em;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
     border-radius: 15px;
 }
 

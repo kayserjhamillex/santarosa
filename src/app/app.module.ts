@@ -39,8 +39,6 @@ import { CihorasComponent } from './cambiable/cita/cihoras/cihoras.component';
 import { CipagoComponent } from './cambiable/cita/cipago/cipago.component';
 import { CipostergacionComponent } from './cambiable/cita/cipostergacion/cipostergacion.component';
 import { CibodyComponent } from './cambiable/cita/cibody/cibody.component';
-import { CiiniciadoComponent } from './cambiable/cita/ciheader/ciiniciado/ciiniciado.component';
-import { CiniiniciadoComponent } from './cambiable/cita/ciheader/ciniiniciado/ciniiniciado.component';
 import { CilogueoComponent } from './cambiable/cita/cilogueo/cilogueo.component';
 import { CiregistroComponent } from './cambiable/cita/ciregistro/ciregistro.component';
 import { LoguinComponent } from './cambiable/cita/loguin/loguin.component';
@@ -84,8 +82,6 @@ import { LoguinComponent } from './cambiable/cita/loguin/loguin.component';
     CipagoComponent,
     CipostergacionComponent,
     CibodyComponent,
-    CiiniciadoComponent,
-    CiniiniciadoComponent,
     CilogueoComponent,
     CiregistroComponent,
     LoguinComponent
