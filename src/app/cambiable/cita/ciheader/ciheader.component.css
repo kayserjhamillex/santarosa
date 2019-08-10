@@ -12,14 +12,88 @@
     margin: auto;
     text-align: center;
     padding: 1em;
+    height: 8em;
 }
 .palabra
 {
-    font-size: 2.5em;
+    font-size: 1.85em;
 }
 .icono
 {
     width: 30%;
     margin: auto;
-    background: black;
+    /* background: black; */
+}
+.icono img 
+{
+    width: 50%;
+    margin: auto;
+}
+@media screen and (max-width:400px)
+{
+    .cabecera
+    {
+        width: 100%;
+        background:red;
+        margin: auto;
+    }
+    .cajas
+    {
+        width: 33%;
+        background: skyblue;
+        /* float: left; */
+        margin: auto;
+        text-align: center;
+        padding: 1em;
+        height: 5em;
+    }
+    .palabra
+    {
+        font-size: 0.75em;
+    }
+    .icono
+    {
+        width: 90%;
+        margin: auto;
+        /* background: black; */
+    }
+    .icono img 
+    {
+        width: 50%;
+        margin: auto;
+    }
+}
+@media screen and (min-width:400px) and (max-width:800px)
+{
+    .cabecera
+    {
+        width: 100%;
+        background:red;
+        margin: auto;
+    }
+    .cajas
+    {
+        width: 33%;
+        background: skyblue;
+        float: left;
+        margin: auto;
+        text-align: center;
+        padding: 1em;
+        height: 8em;
+    }
+    .palabra
+    {
+        font-size: 1.25em;
+    }
+    .icono
+    {
+        width: 30%;
+        margin: auto;
+        /* background: black; */
+    }
+    .icono img 
+    {
+        width: 50%;
+        margin: auto;
+    }
 }
