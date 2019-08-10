@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GheaderComponent } from './gheader.component';
+import { CobodyComponent } from './cobody.component';
 
-describe('GheaderComponent', () => {
-  let component: GheaderComponent;
-  let fixture: ComponentFixture<GheaderComponent>;
+describe('CobodyComponent', () => {
+  let component: CobodyComponent;
+  let fixture: ComponentFixture<CobodyComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GheaderComponent ]
+      declarations: [ CobodyComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GheaderComponent);
+    fixture = TestBed.createComponent(CobodyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

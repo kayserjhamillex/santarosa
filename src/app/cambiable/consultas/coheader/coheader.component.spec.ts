@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GaleriaComponent } from './galeria.component';
+import { CoheaderComponent } from './coheader.component';
 
-describe('GaleriaComponent', () => {
-  let component: GaleriaComponent;
-  let fixture: ComponentFixture<GaleriaComponent>;
+describe('CoheaderComponent', () => {
+  let component: CoheaderComponent;
+  let fixture: ComponentFixture<CoheaderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GaleriaComponent ]
+      declarations: [ CoheaderComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GaleriaComponent);
+    fixture = TestBed.createComponent(CoheaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
